@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gsap3 hero section</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="main-head">
+      <a href="index.html" id="logo">Criento</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <section class="hero slide">
+        <div class="container">
+          <div class="lottie-col">
+            <div class="lottie-bulb">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player
+                src="https://assets1.lottiefiles.com/temp/lf20_eZyh21.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+          <div class="desc-col">
+            <h1>Have You Been In The Dark</h1>
+            <p>when it comes to investing in crypto market</p>
+            <button class="hero-btn">discover</button>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <h2>We Will Help You Invest like A Proffesional</h2>
+        <div class="reveal-candles"></div>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
